@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Indovina i Numeri</h1>
+        <div id="numbers" class="numbers-display"></div>
+        <p id="timer">Tempo rimasto: <span id="countdown">30</span> secondi</p>
+
+        <!-- Input numeri -->
+        <div id="input-section" class="hidden">
+            <p>Inserisci tutti i numeri che ricordi:</p>
+            <div class="inputs-container">
+                <input type="text" class="user-input" maxlength="2">
+                <input type="text" class="user-input" maxlength="2">
+                <input type="text" class="user-input" maxlength="2">
+                <input type="text" class="user-input" maxlength="2">
+                <input type="text" class="user-input" maxlength="2">
+            </div>
+            <button id="confirm-btn">Conferma</button>
+        </div>
+
+        <!-- Risultati -->
+        <div id="result" class="result-message"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
